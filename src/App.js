@@ -1,5 +1,5 @@
 import React from 'react';
-import LandingPage from './unAuth/components/LandingPage';
+import LandingPage from './unAuth/LandingPage';
 import './App.css';
 
 function App() {

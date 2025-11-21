@@ -1,0 +1,48 @@
+.bumpups {
+  padding: 4rem 2rem;
+  background: rgba(26, 26, 46, 0.5);
+  color: #ffffff;
+}
+
+.bumpups-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bumpups-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, #ffffff, #a0a0a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bumpups-content {
+  margin-top: 2rem;
+}
+
+.bumpups-description {
+  font-size: 1.1rem;
+  color: #b8b8b8;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .bumpups {
+    padding: 3rem 1rem;
+  }
+
+  .bumpups-title {
+    font-size: 2rem;
+  }
+
+  .bumpups-description {
+    font-size: 1rem;
+  }
+}
+
